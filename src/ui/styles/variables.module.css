@@ -1,0 +1,10 @@
+:root {
+    /* Names are taken from https://www.htmlcsscolor.com/ */
+    --white: #fff;
+    --blue: #EDF7FA;
+    --button-red: #FF6464;
+    --button-pink: #FF7C7C;
+    --button-dark-blue: #142850;
+
+    --text-black: #21243D;
+}

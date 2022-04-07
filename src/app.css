@@ -1,0 +1,45 @@
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+  }
+  header > a {
+    color: var(--text-black);
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: right;
+  }
+  header > a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  main {
+    min-height: calc(75vh - 85px - 22px);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .container {
+    max-width: 900px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+  }
+  
+  .active {
+    /* color: var(--tangerine-yellow); */
+    cursor: default;
+  }
