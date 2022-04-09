@@ -38,7 +38,7 @@ export const Home = () => {
   }
 
   return (
-    <div className={(styles.wrapper)}>
+    <div className={styles.wrapper}>
         <div className={styles.blockTop}>
             <div className={styles.amountBlock}>
                 <h3>Amount</h3>
@@ -78,7 +78,7 @@ export const Home = () => {
             <h2>Converted Amount:</h2>
             <div className={styles.button}>
                 <BasicButton
-                    handleClick={() => ''}
+                    handleClick={() => flip()}
                     color="red"
                     >
                     Convert
